@@ -1,37 +1,200 @@
 {
-  "updated_at": "2026-10-11T08:00:00+03:00",
+  "updated_at": "2026-10-11T08:30:00+03:00",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
-    "Kas 25", "Ara 25", "Oca 26", "Şub 26", "Mar 26", "Nis 26",
-    "May 26", "Haz 26", "Tem 26", "Ağu 26", "Eyl 26", "Eki 26"
+    "Kas 25",
+    "Ara 25",
+    "Oca 26",
+    "Şub 26",
+    "Mar 26",
+    "Nis 26",
+    "May 26",
+    "Haz 26",
+    "Tem 26",
+    "Ağu 26",
+    "Eyl 26",
+    "Eki 26"
   ],
   "full_months": [
-    "Kasım 2025", "Aralık 2025", "Ocak 2026", "Şubat 2026", "Mart 2026", "Nisan 2026",
-    "Mayıs 2026", "Haziran 2026", "Temmuz 2026", "Ağustos 2026", "Eylül 2026", "Ekim 2026"
+    "Kasım 2025",
+    "Aralık 2025",
+    "Ocak 2026",
+    "Şubat 2026",
+    "Mart 2026",
+    "Nisan 2026",
+    "Mayıs 2026",
+    "Haziran 2026",
+    "Temmuz 2026",
+    "Ağustos 2026",
+    "Eylül 2026",
+    "Ekim 2026"
   ],
-  "series": {
-    "electricity_ptf": [2.784, 2.973, 2.895, 2.078, 1.620, 0.921, 0.591, 1.240, 2.700, 2.908, 2.742, 2.538],
-    "electricity_res_t1": [2.07, 2.07, 2.07, 2.07, 2.07, 2.92, 2.92, 2.92, 2.92, 2.92, 2.92, 2.92],
-    "electricity_res_t2": [3.11, 3.11, 3.11, 3.11, 3.11, 4.32, 4.32, 4.32, 4.32, 4.32, 4.32, 4.32],
-    "gas_spot": [14.44, 14.31, 14.18, 14.49, 14.50, 16.90, 17.22, 17.18, 17.49, 17.20, 17.35, 18.76],
-    "gas_izmir_res": [12.50, 12.50, 12.50, 12.50, 12.50, 14.80, 14.80, 14.80, 14.80, 14.80, 14.80, 17.88],
-    "geothermal_izmir": [1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.10, 1.33],
-    "diesel_izmir": [42.80, 43.50, 44.10, 43.80, 42.90, 43.40, 44.20, 44.90, 45.40, 45.10, 45.80, 46.20]
+  "conversion_factors": {
+    "gas_sm3_to_kwh": 10.64,
+    "fueloil_kg_to_kwh": 11.28,
+    "density_fueloil_kg_l": 0.93
+  },
+  "series_normalized_kwh": {
+    "electricity_ptf": [
+      2.784,
+      2.973,
+      2.895,
+      2.078,
+      1.62,
+      0.921,
+      0.591,
+      1.24,
+      2.7,
+      2.908,
+      2.742,
+      2.538
+    ],
+    "electricity_res_t1": [
+      2.07,
+      2.07,
+      2.07,
+      2.07,
+      2.07,
+      2.92,
+      2.92,
+      2.92,
+      2.92,
+      2.92,
+      2.92,
+      2.92
+    ],
+    "electricity_res_t2": [
+      3.11,
+      3.11,
+      3.11,
+      3.11,
+      3.11,
+      4.32,
+      4.32,
+      4.32,
+      4.32,
+      4.32,
+      4.32,
+      4.32
+    ],
+    "gas_izmir_kwh": [
+      1.17,
+      1.17,
+      1.17,
+      1.17,
+      1.17,
+      1.39,
+      1.39,
+      1.39,
+      1.39,
+      1.39,
+      1.39,
+      1.68
+    ],
+    "gas_spot_kwh": [
+      1.36,
+      1.35,
+      1.33,
+      1.36,
+      1.36,
+      1.59,
+      1.62,
+      1.61,
+      1.64,
+      1.62,
+      1.63,
+      1.76
+    ],
+    "geothermal_izmir": [
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.1,
+      1.33
+    ],
+    "fueloil_izmir_kwh": [
+      2.91,
+      2.96,
+      3.01,
+      2.98,
+      2.93,
+      3.0,
+      3.06,
+      3.11,
+      3.16,
+      3.13,
+      3.2,
+      3.24
+    ]
+  },
+  "raw_series": {
+    "gas_izmir_sm3": [
+      12.5,
+      12.5,
+      12.5,
+      12.5,
+      12.5,
+      14.8,
+      14.8,
+      14.8,
+      14.8,
+      14.8,
+      14.8,
+      17.88
+    ],
+    "gas_spot_sm3": [
+      14.44,
+      14.31,
+      14.18,
+      14.49,
+      14.5,
+      16.9,
+      17.22,
+      17.18,
+      17.49,
+      17.2,
+      17.35,
+      18.76
+    ],
+    "fueloil_izmir_kg": [
+      32.8,
+      33.4,
+      33.9,
+      33.6,
+      33.1,
+      33.8,
+      34.5,
+      35.1,
+      35.6,
+      35.3,
+      36.1,
+      36.5
+    ]
   },
   "current_kpi": {
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
     "electricity_ptf": 2.54,
-    "gas_izmir_t1": 17.88,
-    "gas_spot": 18.76,
+    "gas_izmir_sm3": 17.88,
+    "gas_izmir_kwh": 1.68,
+    "gas_spot_sm3": 18.76,
+    "gas_spot_kwh": 1.76,
     "geothermal_izmir": 1.33,
-    "diesel_izmir": 46.20
+    "fueloil_izmir_kg": 36.5,
+    "fueloil_izmir_kwh": 3.24
   },
   "useful_heat_comparison_oct2026": [
     {
       "tech": "Isı Pompası (Yerden Isıtma - Kademe 1)",
-      "scop_efficiency": "SCOP: 4.00",
+      "scop_efficiency": "SCOP: 4,00",
       "cost_tl_kwh": 0.73,
       "category": "low",
       "color": "#10b981",
@@ -39,7 +202,7 @@
     },
     {
       "tech": "Isı Pompası (İzmir Ort. Referans - Kademe 1)",
-      "scop_efficiency": "SCOP: 3.50",
+      "scop_efficiency": "SCOP: 3,50",
       "cost_tl_kwh": 0.83,
       "category": "low",
       "color": "#10b981",
@@ -47,7 +210,7 @@
     },
     {
       "tech": "Isı Pompası (Yerden Isıtma - Kademe 2)",
-      "scop_efficiency": "SCOP: 4.00",
+      "scop_efficiency": "SCOP: 4,00",
       "cost_tl_kwh": 1.08,
       "category": "low",
       "color": "#059669",
@@ -55,7 +218,7 @@
     },
     {
       "tech": "Isı Pompası (İzmir Ort. Referans - Kademe 2)",
-      "scop_efficiency": "SCOP: 3.50",
+      "scop_efficiency": "SCOP: 3,50",
       "cost_tl_kwh": 1.23,
       "category": "low",
       "color": "#059669",
@@ -87,27 +250,27 @@
     },
     {
       "tech": "Elektrikli Rezistans (UFO/Radyatör - Kademe 1)",
-      "scop_efficiency": "%100 Joule Verimi (COP: 1.0)",
+      "scop_efficiency": "%100 Joule Verimi (COP: 1,0)",
       "cost_tl_kwh": 2.92,
       "category": "high",
       "color": "#dc2626",
       "note": "Yüksek elektrik faturasının birincil kaynağı"
     },
     {
+      "tech": "Kalorifer Yakıtı (Fuel Oil No: 4 / Kal-Yak)",
+      "scop_efficiency": "%82 Hu Mevsimsel Verim",
+      "cost_tl_kwh": 3.95,
+      "category": "critical",
+      "color": "#b91c1c",
+      "note": "Merkezi sistemde doğalgazın 2,15 katı, ısı pompasının 4,75 katı maliyet"
+    },
+    {
       "tech": "Elektrikli Rezistans (UFO/Radyatör - Kademe 2)",
-      "scop_efficiency": "%100 Joule Verimi (COP: 1.0)",
+      "scop_efficiency": "%100 Joule Verimi (COP: 1,0)",
       "cost_tl_kwh": 4.32,
       "category": "critical",
       "color": "#991b1b",
-      "note": "Doğalgaza göre 2.4 kat daha pahalı ısınma"
-    },
-    {
-      "tech": "Motorin / Mazot (Kat Kaloriferi / Kazan)",
-      "scop_efficiency": "%83 Hu Kazan Verimi",
-      "cost_tl_kwh": 5.57,
-      "category": "critical",
-      "color": "#7f1d1d",
-      "note": "Doğalgazın 3 katı, ısı pompasının 4.5 katı maliyet"
+      "note": "Doğalgaza göre 2,4 kat daha pahalı ısınma"
     }
   ]
 }
