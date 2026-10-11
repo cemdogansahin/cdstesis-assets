@@ -423,6 +423,35 @@
       `;
       document.body.appendChild(modalContainer);
     }
+
+    // Dynamic Navigation Enhancer: Add Enerji Fiyatları to menus
+    try {
+      var targetUrl = '/p/izmir-turkiye-enerji-fiyat-gostergesi.html';
+      var pageLists = document.querySelectorAll('.widget.PageList ul, #PageList2 ul, nav ul');
+      pageLists.forEach(function(ul) {
+        if (!ul.querySelector('a[href*="enerji-fiyat"]')) {
+          var li = document.createElement('li');
+          li.innerHTML = '<a href="' + targetUrl + '" style="font-weight:700; color:#1f4e79;">📊 Enerji Fiyatları</a>';
+          ul.appendChild(li);
+        }
+      });
+
+      var footerParas = document.querySelectorAll('footer p, .footer p');
+      footerParas.forEach(function(p) {
+        if (p.textContent.indexOf('Sektör Haberleri') !== -1 && !p.querySelector('a[href*="enerji-fiyat"]')) {
+          var sep = document.createTextNode(' · ');
+          var a = document.createElement('a');
+          a.href = targetUrl;
+          a.style.color = '#1f4e79';
+          a.style.fontWeight = '700';
+          a.textContent = '📊 Enerji Fiyatları';
+          p.appendChild(sep);
+          p.appendChild(a);
+        }
+      });
+    } catch (e) {
+      console.warn('[CDS Core] Nav link injection skipped:', e);
+    }
   }
 
   if (document.readyState === 'loading') {
