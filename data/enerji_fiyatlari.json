@@ -120,18 +120,18 @@
       1.33
     ],
     "fueloil_izmir_kwh": [
-      2.91,
-      2.96,
-      3.01,
-      2.98,
-      2.93,
-      3.0,
-      3.06,
-      3.11,
-      3.16,
-      3.13,
-      3.2,
-      3.24
+      5.01,
+      5.16,
+      5.44,
+      5.51,
+      5.39,
+      5.63,
+      5.78,
+      5.92,
+      6.06,
+      6.02,
+      6.14,
+      6.21
     ]
   },
   "raw_series": {
@@ -164,18 +164,18 @@
       18.76
     ],
     "fueloil_izmir_kg": [
-      32.8,
-      33.4,
-      33.9,
-      33.6,
-      33.1,
-      33.8,
-      34.5,
-      35.1,
-      35.6,
-      35.3,
-      36.1,
-      36.5
+      56.5,
+      58.2,
+      61.4,
+      62.1,
+      60.8,
+      63.5,
+      65.2,
+      66.8,
+      68.4,
+      67.9,
+      69.3,
+      70.08
     ]
   },
   "current_kpi": {
@@ -188,8 +188,8 @@
     "gas_spot_sm3": 18.76,
     "gas_spot_kwh": 1.76,
     "geothermal_izmir": 1.33,
-    "fueloil_izmir_kg": 36.5,
-    "fueloil_izmir_kwh": 3.24
+    "fueloil_izmir_kg": 70.08,
+    "fueloil_izmir_kwh": 6.21
   },
   "useful_heat_comparison_oct2026": [
     {
@@ -257,20 +257,20 @@
       "note": "Yüksek elektrik faturasının birincil kaynağı"
     },
     {
-      "tech": "Kalorifer Yakıtı (Fuel Oil No: 4 / Kal-Yak)",
-      "scop_efficiency": "%82 Hu Mevsimsel Verim",
-      "cost_tl_kwh": 3.95,
-      "category": "critical",
-      "color": "#b91c1c",
-      "note": "Merkezi sistemde doğalgazın 2,15 katı, ısı pompasının 4,75 katı maliyet"
-    },
-    {
       "tech": "Elektrikli Rezistans (UFO/Radyatör - Kademe 2)",
       "scop_efficiency": "%100 Joule Verimi (COP: 1,0)",
       "cost_tl_kwh": 4.32,
       "category": "critical",
       "color": "#991b1b",
       "note": "Doğalgaza göre 2,4 kat daha pahalı ısınma"
+    },
+    {
+      "tech": "Kalorifer Yakıtı (Fuel Oil No: 4 / Kal-Yak)",
+      "scop_efficiency": "%82 Hu Mevsimsel Verim",
+      "cost_tl_kwh": 7.58,
+      "category": "critical",
+      "color": "#b91c1c",
+      "note": "Merkezi sistemde doğalgazın 4,14 katı, ısı pompasının 9,1 katı maliyet"
     }
   ]
 }
