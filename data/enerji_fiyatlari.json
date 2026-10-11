@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T08:30:00+03:00",
+  "updated_at": "2026-10-11T08:25:30.523623",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -47,7 +47,7 @@
       2.7,
       2.908,
       2.742,
-      2.538
+      2.513
     ],
     "electricity_res_t1": [
       2.07,
@@ -182,7 +182,7 @@
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
-    "electricity_ptf": 2.54,
+    "electricity_ptf": 2.51,
     "gas_izmir_sm3": 17.88,
     "gas_izmir_kwh": 1.68,
     "gas_spot_sm3": 18.76,
