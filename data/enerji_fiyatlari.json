@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T08:25:30.523623",
+  "updated_at": "2026-10-11T08:34:37.004742",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -175,7 +175,7 @@
       68.4,
       67.9,
       69.3,
-      70.08
+      70.07
     ]
   },
   "current_kpi": {
@@ -188,7 +188,7 @@
     "gas_spot_sm3": 18.76,
     "gas_spot_kwh": 1.76,
     "geothermal_izmir": 1.33,
-    "fueloil_izmir_kg": 70.08,
+    "fueloil_izmir_kg": 70.07,
     "fueloil_izmir_kwh": 6.21
   },
   "useful_heat_comparison_oct2026": [
