@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T08:34:37.004742",
+  "updated_at": "2026-10-12T14:18:08.568087",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -47,7 +47,7 @@
       2.7,
       2.908,
       2.742,
-      2.513
+      2.59
     ],
     "electricity_res_t1": [
       2.07,
@@ -103,7 +103,7 @@
       1.64,
       1.62,
       1.63,
-      1.76
+      1.77
     ],
     "geothermal_izmir": [
       1.1,
@@ -161,7 +161,7 @@
       17.49,
       17.2,
       17.35,
-      18.76
+      18.82
     ],
     "fueloil_izmir_kg": [
       56.5,
@@ -182,11 +182,11 @@
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
-    "electricity_ptf": 2.51,
+    "electricity_ptf": 2.59,
     "gas_izmir_sm3": 17.88,
     "gas_izmir_kwh": 1.68,
-    "gas_spot_sm3": 18.76,
-    "gas_spot_kwh": 1.76,
+    "gas_spot_sm3": 18.82,
+    "gas_spot_kwh": 1.77,
     "geothermal_izmir": 1.33,
     "fueloil_izmir_kg": 70.07,
     "fueloil_izmir_kwh": 6.21
