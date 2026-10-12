@@ -274,6 +274,9 @@
         }
 
         /* Global UI Template Fixes */
+        body.page-view .widget.Blog .post-title,
+        body.page-view .post-title,
+        body.page-view .widget.Blog .post-header-line-1,
         body.static_page .widget.Blog .post-title,
         body.static_page .widget.Blog .post-header-line-1 {
           display: none !important;
