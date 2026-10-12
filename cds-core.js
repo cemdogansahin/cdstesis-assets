@@ -272,6 +272,68 @@
           .cds-form-row { flex-direction: column; }
           .cds-sub-btn { width: 100%; }
         }
+
+        /* Global UI Template Fixes */
+        body.static_page .widget.Blog .post-title,
+        body.static_page .widget.Blog .post-header-line-1 {
+          display: none !important;
+        }
+        .bg-photo, .bg-photo-overlay {
+          background-image: none !important;
+        }
+        .widget.Label, #Label1 {
+          display: none !important;
+        }
+        .widget.PopularPosts {
+          margin: 30px auto;
+          max-width: 900px;
+          padding: 24px;
+          background: #ffffff;
+          border-radius: 12px;
+          border: 1px solid #e2e8f0;
+          box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+        }
+        .widget.PopularPosts h3.title {
+          font-size: 18px;
+          font-weight: 700;
+          color: #1f4e79;
+          border-bottom: 2px solid #f59e0b;
+          padding-bottom: 8px;
+          margin-bottom: 16px;
+        }
+        .widget.PopularPosts ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+        }
+        .widget.PopularPosts li {
+          padding-bottom: 14px;
+          border-bottom: 1px solid #f1f5f9;
+        }
+        .widget.PopularPosts li:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+        .widget.PopularPosts .item-title a {
+          color: #0f172a;
+          font-weight: 600;
+          text-decoration: none;
+          font-size: 15px;
+          line-height: 1.4;
+          transition: color 0.2s;
+        }
+        .widget.PopularPosts .item-title a:hover {
+          color: #1f4e79;
+        }
+        .widget.PopularPosts .item-snippet {
+          font-size: 13px;
+          color: #64748b;
+          margin-top: 5px;
+          line-height: 1.5;
+        }
       `;
       document.head.appendChild(style);
     }
@@ -451,6 +513,16 @@
       });
     } catch (e) {
       console.warn('[CDS Core] Nav link injection skipped:', e);
+    }
+
+    // Dynamic Link Normalizer: Prevent Blogger blogspot.com redirect issues
+    try {
+      var domainLinks = document.querySelectorAll('a[href*="tesisyonetimdanismanlik.blogspot.com"]');
+      domainLinks.forEach(function(link) {
+        link.href = link.href.replace('tesisyonetimdanismanlik.blogspot.com', 'www.cdstesis.com.tr');
+      });
+    } catch (e) {
+      console.warn('[CDS Core] Link normalization skipped:', e);
     }
   }
 
