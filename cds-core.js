@@ -337,6 +337,111 @@
           margin-top: 5px;
           line-height: 1.5;
         }
+
+        /* Live Energy & Commodity Ticker Tape */
+        .cds-ticker-wrap {
+          box-sizing: border-box;
+          max-width: 1040px;
+          margin: 0 auto 20px auto;
+          background: #ffffff;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 3px 10px rgba(15, 43, 72, 0.06);
+          border: 1px solid #e2e8f0;
+          min-height: 80px;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .cds-tv-wrap {
+          width: 100%;
+          height: 46px;
+          min-height: 46px;
+          background: #fafbfc;
+          overflow: hidden;
+        }
+
+        .cds-local-energy-strip {
+          background: #0f2b48;
+          color: #ffffff;
+          padding: 7px 16px;
+          font-size: 12px;
+          font-weight: 600;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+          border-top: 1px solid #1e3a5f;
+          line-height: 1.5;
+        }
+
+        .cds-local-inner {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          flex-wrap: wrap;
+        }
+
+        .cds-local-badge {
+          color: #38bdf8;
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+
+        .cds-pulse-green {
+          width: 7px;
+          height: 7px;
+          background: #10b981;
+          border-radius: 50%;
+          display: inline-block;
+          box-shadow: 0 0 8px #10b981;
+        }
+
+        .cds-local-link {
+          color: #38bdf8;
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 11.5px;
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          padding: 3px 8px;
+          background: rgba(56, 189, 248, 0.12);
+          border-radius: 4px;
+          border: 1px solid rgba(56, 189, 248, 0.25);
+          transition: all 0.2s;
+        }
+
+        .cds-local-link:hover {
+          background: rgba(56, 189, 248, 0.25);
+          color: #ffffff;
+        }
+
+        @media (max-width: 640px) {
+          .cds-ticker-wrap {
+            margin: 0 0 16px 0;
+            border-radius: 0;
+            border-left: none;
+            border-right: none;
+          }
+          .cds-local-energy-strip {
+            font-size: 11px;
+            padding: 8px 12px;
+            gap: 8px;
+          }
+          .cds-local-inner {
+            gap: 10px;
+          }
+          .cds-local-link {
+            width: 100%;
+            justify-content: center;
+            margin-top: 4px;
+          }
+        }
       `;
       document.head.appendChild(style);
     }
@@ -527,6 +632,94 @@
     } catch (e) {
       console.warn('[CDS Core] Link normalization skipped:', e);
     }
+
+    // Mount Live Commodity & Energy Ticker Tape
+    try {
+      mountLiveEnergyTicker();
+    } catch (e) {
+      console.warn('[CDS Core] Live energy ticker mount skipped:', e);
+    }
+  }
+
+  // 5. Mount Live Energy & Commodity Ticker Tape (TradingView + Local Tariffs)
+  function mountLiveEnergyTicker() {
+    if (document.getElementById('cdsLiveEnergyTicker')) return;
+    var mountTarget = document.getElementById('main') || document.querySelector('main');
+    if (!mountTarget) return;
+
+    var tickerWrap = document.createElement('div');
+    tickerWrap.id = 'cdsLiveEnergyTicker';
+    tickerWrap.className = 'cds-ticker-wrap';
+
+    // A. TradingView Real-Time Streaming Ticker (Global Commodities & Forex)
+    var tvContainer = document.createElement('div');
+    tvContainer.className = 'tradingview-widget-container cds-tv-wrap';
+
+    var widgetDiv = document.createElement('div');
+    widgetDiv.className = 'tradingview-widget-container__widget';
+    tvContainer.appendChild(widgetDiv);
+
+    var tvScript = document.createElement('script');
+    tvScript.type = 'text/javascript';
+    tvScript.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+    tvScript.async = true;
+    tvScript.innerHTML = JSON.stringify({
+      "symbols": [
+        { "proName": "TVC:UKOIL", "title": "Brent Petrol" },
+        { "proName": "NYMEX:NG1!", "title": "Doğalgaz (Henry Hub)" },
+        { "proName": "COMEX:HG1!", "title": "Bakır" },
+        { "proName": "OANDA:XAUUSD", "title": "Ons Altın" },
+        { "proName": "OANDA:XAGUSD", "title": "Gümüş" },
+        { "proName": "FX:USDTRY", "title": "USD/TRY" },
+        { "proName": "FX:EURTRY", "title": "EUR/TRY" },
+        { "proName": "BIST:XU100", "title": "BIST 100" }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "adaptive",
+      "colorTheme": "light",
+      "locale": "tr"
+    });
+    tvContainer.appendChild(tvScript);
+    tickerWrap.appendChild(tvContainer);
+
+    // B. CDS Local Energy & Regulated Tariffs Sub-Strip
+    var localStrip = document.createElement('div');
+    localStrip.className = 'cds-local-energy-strip';
+    localStrip.innerHTML = '<div class="cds-local-inner">' +
+      '<span class="cds-local-badge"><span class="cds-pulse-green"></span>Türkiye &amp; İzmir Enerji Endeksi:</span>' +
+      '<span id="cdsPtfVal">⚡ EPİAŞ PTF: <strong style="color:#fbbf24;">2.590 ₺/MWh</strong></span>' +
+      '<span id="cdsGasVal">🏠 İzmirgaz K1: <strong style="color:#fbbf24;">1.68 ₺/kWh</strong></span>' +
+      '<span id="cdsIzjetVal">♨️ İZJET Jeotermal: <strong style="color:#fbbf24;">24.50 ₺/m²</strong></span>' +
+      '<span id="cdsDieselVal">⛽ Motorin (İzmir): <strong style="color:#fbbf24;">44.15 ₺/Lt</strong></span>' +
+      '</div>' +
+      '<a href="/p/izmir-turkiye-enerji-fiyat-gostergesi.html" class="cds-local-link">' +
+      'Tüm Enerji Grafiklerini Gör &rarr;</a>';
+    tickerWrap.appendChild(localStrip);
+
+    mountTarget.insertBefore(tickerWrap, mountTarget.firstChild);
+
+    // C. Dynamic JSON update for local energy tariffs
+    try {
+      fetch('https://cemdogansahin.github.io/cdstesis-assets/data/enerji_fiyatlari.json')
+        .then(function(r) { return r.json(); })
+        .then(function(d) {
+          if (d && d.series_normalized_kwh) {
+            var ptf = d.series_normalized_kwh.electricity_ptf;
+            if (ptf && ptf.length) {
+              var valPtf = ptf[ptf.length - 1];
+              var el = document.getElementById('cdsPtfVal');
+              if (el) el.innerHTML = '⚡ EPİAŞ PTF: <strong style="color:#fbbf24;">' + (valPtf * 1000).toLocaleString('tr-TR', {maximumFractionDigits:0}) + ' ₺/MWh</strong>';
+            }
+            var gas = d.series_normalized_kwh.gas_izmir_kwh;
+            if (gas && gas.length) {
+              var valGas = gas[gas.length - 1];
+              var elG = document.getElementById('cdsGasVal');
+              if (elG) elG.innerHTML = '🏠 İzmirgaz K1: <strong style="color:#fbbf24;">' + valGas.toFixed(2) + ' ₺/kWh</strong>';
+            }
+          }
+        }).catch(function() {});
+    } catch (e) {}
   }
 
   if (document.readyState === 'loading') {
