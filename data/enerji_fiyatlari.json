@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T10:47:55.229785",
+  "updated_at": "2026-11-10T10:49:31.860177",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,14 +276,14 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-10T10:47:55.229785",
+    "updated_at": "2026-11-10T10:49:31.860177",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot, Gold API & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$91.11",
+        "val": "$91.03",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -315,7 +315,7 @@
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$52.80",
+        "val": "$52.78",
         "chg": "+0.00%",
         "trend": "up"
       },
