@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T12:12:17Z",
+  "updated_at": "2026-11-10T10:47:55.229785",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -182,16 +182,16 @@
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
-    "electricity_ptf": 2.59,
+    "electricity_ptf": 3.83,
     "gas_izmir_sm3": 17.88,
     "gas_izmir_kwh": 1.68,
     "gas_spot_sm3": 18.82,
     "gas_spot_kwh": 1.77,
     "geothermal_izmir": 1.33,
-    "fueloil_izmir_kg": 70.07,
-    "fueloil_izmir_kwh": 6.21,
-    "motorin_izmir_lt": 101.81,
-    "gasoline_95_izmir_lt": 81.7
+    "fueloil_izmir_kg": 65.62,
+    "fueloil_izmir_kwh": 5.82,
+    "motorin_izmir_lt": 97.02,
+    "gasoline_95_izmir_lt": 76.39
   },
   "useful_heat_comparison_oct2026": [
     {
@@ -276,38 +276,38 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-02T12:12:17Z",
+    "updated_at": "2026-11-10T10:47:55.229785",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot, Gold API & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$108.69",
-        "chg": "-4.18%",
-        "trend": "down"
+        "val": "$91.11",
+        "chg": "+0.00%",
+        "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$2.94",
-        "chg": "+1.31%",
+        "val": "$3.22",
+        "chg": "+0.00%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.53/lb",
-        "chg": "+0.66%",
+        "val": "$6.32/lb",
+        "chg": "+0.00%",
         "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.264 ₺",
+        "val": "6.643 ₺",
         "chg": "+0.55%",
         "trend": "up"
       },
@@ -315,39 +315,47 @@
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$50.29",
-        "chg": "+0.85%",
+        "val": "$52.80",
+        "chg": "+0.00%",
         "trend": "up"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "49.94 ₺",
-        "chg": "+0.12%",
+        "val": "50.20 ₺",
+        "chg": "+0.15%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.73 ₺",
-        "chg": "-0.05%",
+        "val": "56.25 ₺",
+        "chg": "-0.08%",
         "trend": "down"
       },
       {
         "id": "motorin",
         "name": "MOTORİN (İZMİR)",
         "icon": "⛽",
-        "val": "101.81 ₺/Lt",
+        "val": "97.02 ₺/Lt",
         "tag": "OPET",
-        "trend": "up"
+        "trend": "neutral"
+      },
+      {
+        "id": "benzin95",
+        "name": "BENZİN 95 (İZMİR)",
+        "icon": "🚗",
+        "val": "76.39 ₺/Lt",
+        "tag": "OPET",
+        "trend": "neutral"
       },
       {
         "id": "epias_ptf",
         "name": "EPİAŞ PTF",
         "icon": "⚡",
-        "val": "2.590 ₺/MWh",
+        "val": "3.826 ₺/MWh",
         "tag": "Spot",
         "trend": "neutral"
       },
@@ -366,14 +374,6 @@
         "val": "24.50 ₺/m²",
         "tag": "Bölgesel",
         "trend": "neutral"
-      },
-      {
-        "id": "benzin95",
-        "name": "BENZİN 95 (İZMİR)",
-        "icon": "🚗",
-        "val": "81.70 ₺/Lt",
-        "tag": "OPET",
-        "trend": "up"
       }
     ]
   }
