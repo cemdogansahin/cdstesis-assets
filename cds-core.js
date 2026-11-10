@@ -735,18 +735,18 @@
     if (!mountTarget) return;
 
     var initialItems = [
-      { id: 'brent', name: 'BRENT', icon: '🛢️', val: '$108.69', chg: '-4.18%', trend: 'down' },
-      { id: 'natgas', name: 'DOĞALGAZ (HH)', icon: '🔥', val: '$2.94', chg: '+1.31%', trend: 'up' },
-      { id: 'copper', name: 'BAKIR', icon: '🥉', val: '$6.53/lb', chg: '+0.66%', trend: 'up' },
-      { id: 'gold_gram', name: 'GRAM ALTIN', icon: '🥇', val: '6.264 ₺', chg: '+0.55%', trend: 'up' },
-      { id: 'silver', name: 'GÜMÜŞ', icon: '🥈', val: '$50.29', chg: '+0.85%', trend: 'up' },
-      { id: 'usd_try', name: 'USD/TRY', icon: '💵', val: '49.94 ₺', chg: '+0.12%', trend: 'up' },
-      { id: 'eur_try', name: 'EUR/TRY', icon: '💶', val: '55.73 ₺', chg: '-0.05%', trend: 'down' },
-      { id: 'motorin', name: 'MOTORİN (İZMİR)', icon: '⛽', val: '101.81 ₺/Lt', tag: 'OPET', trend: 'up' },
-      { id: 'epias_ptf', name: 'EPİAŞ PTF', icon: '⚡', val: '2.590 ₺/MWh', tag: 'Spot', trend: 'neutral' },
+      { id: 'brent', name: 'BRENT', icon: '🛢️', val: '$91.11', chg: '+0.45%', trend: 'up' },
+      { id: 'natgas', name: 'DOĞALGAZ (HH)', icon: '🔥', val: '$3.22', chg: '+1.10%', trend: 'up' },
+      { id: 'copper', name: 'BAKIR', icon: '🥉', val: '$6.32/lb', chg: '-0.25%', trend: 'down' },
+      { id: 'gold_gram', name: 'GRAM ALTIN', icon: '🥇', val: '6.643 ₺', chg: '+0.55%', trend: 'up' },
+      { id: 'silver', name: 'GÜMÜŞ', icon: '🥈', val: '$52.80', chg: '+0.65%', trend: 'up' },
+      { id: 'usd_try', name: 'USD/TRY', icon: '💵', val: '50.20 ₺', chg: '+0.15%', trend: 'up' },
+      { id: 'eur_try', name: 'EUR/TRY', icon: '💶', val: '56.25 ₺', chg: '-0.08%', trend: 'down' },
+      { id: 'motorin', name: 'MOTORİN (İZMİR)', icon: '⛽', val: '97.02 ₺/Lt', tag: 'OPET', trend: 'neutral' },
+      { id: 'benzin95', name: 'BENZİN 95 (İZMİR)', icon: '🚗', val: '76.39 ₺/Lt', tag: 'OPET', trend: 'neutral' },
+      { id: 'epias_ptf', name: 'EPİAŞ PTF', icon: '⚡', val: '3.826 ₺/MWh', tag: 'Spot', trend: 'neutral' },
       { id: 'izmirgaz', name: 'İZMİRGAZ K1', icon: '🏠', val: '1.68 ₺/kWh', tag: 'Konut', trend: 'neutral' },
-      { id: 'izjet', name: 'İZJET JEOTERMAL', icon: '♨️', val: '24.50 ₺/m²', tag: 'Bölgesel', trend: 'neutral' },
-      { id: 'benzin95', name: 'BENZİN 95 (İZMİR)', icon: '🚗', val: '81.70 ₺/Lt', tag: 'OPET', trend: 'up' }
+      { id: 'izjet', name: 'İZJET JEOTERMAL', icon: '♨️', val: '24.50 ₺/m²', tag: 'Bölgesel', trend: 'neutral' }
     ];
 
     function buildGroupHtml(items) {
