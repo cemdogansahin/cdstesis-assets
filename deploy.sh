@@ -3,7 +3,8 @@ set -e
 
 MSG="${1:-Update CDS CDN assets}"
 
-cd /home/cdsahin/cdstesis-assets
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 git add .
 if git diff-index --quiet HEAD --; then
   echo "[CDS CDN] Değişiklik yok, push atlandı."
