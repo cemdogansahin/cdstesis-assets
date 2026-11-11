@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:00:00.159909",
+  "updated_at": "2026-11-11T03:00:00.189613",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -188,8 +188,8 @@
     "gas_spot_sm3": 18.82,
     "gas_spot_kwh": 1.77,
     "geothermal_izmir": 1.33,
-    "fueloil_izmir_kg": 65.62,
-    "fueloil_izmir_kwh": 5.82,
+    "fueloil_izmir_kg": 64.28,
+    "fueloil_izmir_kwh": 5.7,
     "motorin_izmir_lt": 97.02,
     "gasoline_95_izmir_lt": 76.39
   },
@@ -276,14 +276,14 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-11T00:00:00.159909",
+    "updated_at": "2026-11-11T03:00:00.189613",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot, Gold API & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$91.98",
+        "val": "$91.92",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -291,7 +291,7 @@
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.31",
+        "val": "$3.29",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -307,7 +307,7 @@
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.507 ₺",
+        "val": "6.519 ₺",
         "chg": "+0.55%",
         "trend": "up"
       },
@@ -315,7 +315,7 @@
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$51.55",
+        "val": "$51.53",
         "chg": "+0.00%",
         "trend": "up"
       },
