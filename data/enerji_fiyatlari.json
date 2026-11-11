@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:32:08.794711",
+  "updated_at": "2026-11-11T12:00:00.537467",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,31 +276,31 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-11T09:32:08.794711",
+    "updated_at": "2026-11-11T12:00:00.537467",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$92.59",
-        "chg": "+1.20%",
+        "val": "$91.90",
+        "chg": "+0.45%",
         "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.29",
-        "chg": "-0.24%",
-        "trend": "down"
+        "val": "$3.32",
+        "chg": "+0.79%",
+        "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.32/lb",
-        "chg": "+1.38%",
+        "val": "$6.31/lb",
+        "chg": "+1.25%",
         "trend": "up"
       },
       {
@@ -315,8 +315,8 @@
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$52.96",
-        "chg": "+3.39%",
+        "val": "$53.01",
+        "chg": "+3.47%",
         "trend": "up"
       },
       {
@@ -331,8 +331,8 @@
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "56.06 ₺",
-        "chg": "-0.07%",
+        "val": "56.03 ₺",
+        "chg": "-0.11%",
         "trend": "down"
       },
       {
