@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:00:00.194376",
+  "updated_at": "2026-11-12T00:00:00.796970",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -182,7 +182,7 @@
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
-    "electricity_ptf": 3.09,
+    "electricity_ptf": 2.83,
     "gas_izmir_sm3": 17.88,
     "gas_izmir_kwh": 1.68,
     "gas_spot_sm3": 18.82,
@@ -276,47 +276,47 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-11T21:00:00.194376",
+    "updated_at": "2026-11-12T00:00:00.796970",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$92.64",
-        "chg": "+1.26%",
+        "val": "$92.50",
+        "chg": "+1.10%",
         "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.26",
-        "chg": "-1.03%",
+        "val": "$3.24",
+        "chg": "-1.70%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.29/lb",
-        "chg": "+0.91%",
+        "val": "$6.27/lb",
+        "chg": "+0.59%",
         "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.470 ₺",
-        "chg": "-0.57%",
+        "val": "6.452 ₺",
+        "chg": "-0.84%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$52.08",
-        "chg": "+1.67%",
+        "val": "$51.84",
+        "chg": "+1.20%",
         "trend": "up"
       },
       {
@@ -331,8 +331,8 @@
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.75 ₺",
-        "chg": "-0.63%",
+        "val": "55.73 ₺",
+        "chg": "-0.66%",
         "trend": "down"
       },
       {
@@ -355,7 +355,7 @@
         "id": "epias_ptf",
         "name": "EPİAŞ PTF",
         "icon": "⚡",
-        "val": "3.091 ₺/MWh",
+        "val": "2.831 ₺/MWh",
         "tag": "Spot",
         "trend": "neutral"
       },
