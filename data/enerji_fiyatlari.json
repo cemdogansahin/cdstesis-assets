@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:29:38.622174",
+  "updated_at": "2026-11-11T09:32:08.794711",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,15 +276,15 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-11T09:29:38.622174",
-    "source": "OPET Resmi İzmir API, Yahoo Finance Spot, Gold API & EPİAŞ / İzmirgaz",
+    "updated_at": "2026-11-11T09:32:08.794711",
+    "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$92.58",
-        "chg": "+0.00%",
+        "val": "$92.59",
+        "chg": "+1.20%",
         "trend": "up"
       },
       {
@@ -292,47 +292,47 @@
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
         "val": "$3.29",
-        "chg": "+0.00%",
-        "trend": "up"
+        "chg": "-0.24%",
+        "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
         "val": "$6.32/lb",
-        "chg": "+0.00%",
+        "chg": "+1.38%",
         "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.550 ₺",
-        "chg": "+0.55%",
+        "val": "6.566 ₺",
+        "chg": "+0.91%",
         "trend": "up"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$52.94",
-        "chg": "+0.00%",
+        "val": "$52.96",
+        "chg": "+3.39%",
         "trend": "up"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.24 ₺",
-        "chg": "+0.15%",
+        "val": "50.23 ₺",
+        "chg": "+0.02%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "56.20 ₺",
-        "chg": "-0.08%",
+        "val": "56.06 ₺",
+        "chg": "-0.07%",
         "trend": "down"
       },
       {
