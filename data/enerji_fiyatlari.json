@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:00:00.189613",
+  "updated_at": "2026-11-11T06:00:00.941791",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,14 +276,14 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-11T03:00:00.189613",
+    "updated_at": "2026-11-11T06:00:00.941791",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot, Gold API & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$91.92",
+        "val": "$92.64",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -291,7 +291,7 @@
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.29",
+        "val": "$3.31",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -299,7 +299,7 @@
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.27/lb",
+        "val": "$6.30/lb",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -307,7 +307,7 @@
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.519 ₺",
+        "val": "6.531 ₺",
         "chg": "+0.55%",
         "trend": "up"
       },
@@ -315,7 +315,7 @@
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$51.53",
+        "val": "$52.28",
         "chg": "+0.00%",
         "trend": "up"
       },
@@ -323,7 +323,7 @@
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.20 ₺",
+        "val": "50.24 ₺",
         "chg": "+0.15%",
         "trend": "up"
       },
@@ -331,7 +331,7 @@
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "56.25 ₺",
+        "val": "56.20 ₺",
         "chg": "-0.08%",
         "trend": "down"
       },
