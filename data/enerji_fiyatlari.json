@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T15:00:00.502786",
+  "updated_at": "2026-11-12T18:00:00.597609",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-12T15:00:00.502786",
+    "updated_at": "2026-11-12T18:00:00.597609",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$92.23",
-        "chg": "-0.57%",
-        "trend": "down"
+        "val": "$93.47",
+        "chg": "+0.77%",
+        "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.28",
-        "chg": "+1.90%",
+        "val": "$3.31",
+        "chg": "+2.83%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.21/lb",
-        "chg": "-1.27%",
+        "val": "$6.18/lb",
+        "chg": "-1.81%",
         "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.388 ₺",
-        "chg": "-1.12%",
+        "val": "6.282 ₺",
+        "chg": "-2.76%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$51.04",
-        "chg": "-1.85%",
+        "val": "$50.21",
+        "chg": "-3.45%",
         "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.25 ₺",
-        "chg": "+0.05%",
+        "val": "50.26 ₺",
+        "chg": "+0.06%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.87 ₺",
-        "chg": "+0.21%",
+        "val": "55.76 ₺",
+        "chg": "+0.02%",
         "trend": "up"
       },
       {
