@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T00:00:00.796970",
+  "updated_at": "2026-11-12T03:00:00.368342",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -191,7 +191,7 @@
     "fueloil_izmir_kg": 64.28,
     "fueloil_izmir_kwh": 5.7,
     "motorin_izmir_lt": 97.02,
-    "gasoline_95_izmir_lt": 76.39
+    "gasoline_95_izmir_lt": 72.91
   },
   "useful_heat_comparison_oct2026": [
     {
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-12T00:00:00.796970",
+    "updated_at": "2026-11-12T03:00:00.368342",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$92.50",
-        "chg": "+1.10%",
-        "trend": "up"
+        "val": "$92.45",
+        "chg": "-0.33%",
+        "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.24",
-        "chg": "-1.70%",
-        "trend": "down"
+        "val": "$3.25",
+        "chg": "+1.03%",
+        "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.27/lb",
-        "chg": "+0.59%",
-        "trend": "up"
+        "val": "$6.25/lb",
+        "chg": "-0.67%",
+        "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.452 ₺",
-        "chg": "-0.84%",
+        "val": "6.435 ₺",
+        "chg": "-0.37%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$51.84",
-        "chg": "+1.20%",
-        "trend": "up"
+        "val": "$51.22",
+        "chg": "-1.51%",
+        "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.23 ₺",
-        "chg": "+0.02%",
+        "val": "50.24 ₺",
+        "chg": "+0.04%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.73 ₺",
-        "chg": "-0.66%",
+        "val": "55.86 ₺",
+        "chg": "-0.43%",
         "trend": "down"
       },
       {
@@ -347,7 +347,7 @@
         "id": "benzin95",
         "name": "BENZİN 95 (İZMİR)",
         "icon": "🚗",
-        "val": "76.39 ₺/Lt",
+        "val": "72.91 ₺/Lt",
         "tag": "OPET",
         "trend": "neutral"
       },
