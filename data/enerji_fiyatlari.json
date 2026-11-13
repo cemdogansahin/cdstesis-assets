@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:00:00.574787",
+  "updated_at": "2026-11-13T09:00:00.219873",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-13T06:00:00.574787",
+    "updated_at": "2026-11-13T09:00:00.219873",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$95.65",
-        "chg": "-0.18%",
+        "val": "$95.73",
+        "chg": "-0.09%",
         "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.34",
-        "chg": "+0.09%",
-        "trend": "up"
+        "val": "$3.31",
+        "chg": "-1.02%",
+        "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.22/lb",
-        "chg": "+0.40%",
-        "trend": "up"
+        "val": "$6.17/lb",
+        "chg": "-0.50%",
+        "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.336 ₺",
-        "chg": "+0.88%",
+        "val": "6.307 ₺",
+        "chg": "+0.41%",
         "trend": "up"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$50.52",
-        "chg": "+0.91%",
-        "trend": "up"
+        "val": "$49.60",
+        "chg": "-0.92%",
+        "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.34 ₺",
-        "chg": "+0.11%",
+        "val": "50.31 ₺",
+        "chg": "+0.05%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.67 ₺",
-        "chg": "+0.10%",
+        "val": "55.73 ₺",
+        "chg": "+0.21%",
         "trend": "up"
       },
       {
