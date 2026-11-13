@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T00:00:00.501291",
+  "updated_at": "2026-11-13T03:00:00.587025",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-13T00:00:00.501291",
+    "updated_at": "2026-11-13T03:00:00.587025",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$96.10",
-        "chg": "+3.60%",
-        "trend": "up"
+        "val": "$95.78",
+        "chg": "-0.04%",
+        "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.34",
-        "chg": "+3.89%",
+        "val": "$3.36",
+        "chg": "+0.63%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.19/lb",
-        "chg": "-1.62%",
-        "trend": "down"
+        "val": "$6.21/lb",
+        "chg": "+0.16%",
+        "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.274 ₺",
-        "chg": "-2.88%",
-        "trend": "down"
+        "val": "6.281 ₺",
+        "chg": "+0.11%",
+        "trend": "up"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
         "val": "$50.02",
-        "chg": "-3.81%",
+        "chg": "-0.09%",
         "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.25 ₺",
-        "chg": "+0.05%",
+        "val": "50.28 ₺",
+        "chg": "+0.11%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.67 ₺",
-        "chg": "-0.15%",
+        "val": "55.61 ₺",
+        "chg": "-0.26%",
         "trend": "down"
       },
       {
