@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T21:00:01.058085",
+  "updated_at": "2026-11-15T00:00:00.900136",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -182,7 +182,7 @@
     "month_label": "Ekim 2026",
     "electricity_t1": 2.92,
     "electricity_t2": 4.32,
-    "electricity_ptf": 2.41,
+    "electricity_ptf": 2.54,
     "gas_izmir_sm3": 17.88,
     "gas_izmir_kwh": 1.68,
     "gas_spot_sm3": 18.82,
@@ -276,7 +276,7 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-14T21:00:01.058085",
+    "updated_at": "2026-11-15T00:00:00.900136",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
@@ -355,7 +355,7 @@
         "id": "epias_ptf",
         "name": "EPİAŞ PTF",
         "icon": "⚡",
-        "val": "2.411 ₺/MWh",
+        "val": "2.539 ₺/MWh",
         "tag": "Spot",
         "trend": "neutral"
       },
