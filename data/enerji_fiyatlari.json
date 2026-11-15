@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T15:00:00.710259",
+  "updated_at": "2026-11-15T18:00:00.621043",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,7 +276,7 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-15T15:00:00.710259",
+    "updated_at": "2026-11-15T18:00:00.621043",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
