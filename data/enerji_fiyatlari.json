@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:00:00.876927",
+  "updated_at": "2026-11-16T12:00:00.902651",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-16T09:00:00.876927",
+    "updated_at": "2026-11-16T12:00:00.902651",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$95.83",
-        "chg": "-0.01%",
+        "val": "$92.73",
+        "chg": "-0.32%",
         "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.15",
-        "chg": "-2.45%",
+        "val": "$3.10",
+        "chg": "-3.96%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.02/lb",
-        "chg": "-1.22%",
+        "val": "$6.05/lb",
+        "chg": "-0.66%",
         "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.230 ₺",
-        "chg": "-0.96%",
+        "val": "6.263 ₺",
+        "chg": "-0.44%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$47.19",
-        "chg": "-3.93%",
+        "val": "$47.45",
+        "chg": "-3.39%",
         "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.38 ₺",
-        "chg": "+0.06%",
+        "val": "50.39 ₺",
+        "chg": "+0.08%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.57 ₺",
-        "chg": "+0.13%",
+        "val": "55.60 ₺",
+        "chg": "+0.20%",
         "trend": "up"
       },
       {
