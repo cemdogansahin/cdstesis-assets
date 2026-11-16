@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T15:00:00.127140",
+  "updated_at": "2026-11-16T18:00:00.637881",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,47 +276,47 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-16T15:00:00.127140",
+    "updated_at": "2026-11-16T18:00:00.637881",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$94.96",
-        "chg": "-0.92%",
+        "val": "$93.61",
+        "chg": "-2.33%",
         "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.15",
-        "chg": "-2.51%",
+        "val": "$3.14",
+        "chg": "-2.72%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.03/lb",
-        "chg": "-0.94%",
+        "val": "$6.06/lb",
+        "chg": "-0.47%",
         "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.282 ₺",
-        "chg": "-0.13%",
-        "trend": "down"
+        "val": "6.301 ₺",
+        "chg": "+0.17%",
+        "trend": "up"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$47.71",
-        "chg": "-2.87%",
+        "val": "$47.28",
+        "chg": "-3.74%",
         "trend": "down"
       },
       {
@@ -324,16 +324,16 @@
         "name": "USD/TRY",
         "icon": "💵",
         "val": "50.39 ₺",
-        "chg": "+0.08%",
+        "chg": "+0.09%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.52 ₺",
-        "chg": "+0.04%",
-        "trend": "up"
+        "val": "55.48 ₺",
+        "chg": "-0.02%",
+        "trend": "down"
       },
       {
         "id": "motorin",
