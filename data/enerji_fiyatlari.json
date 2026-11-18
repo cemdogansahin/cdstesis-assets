@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T03:00:00.799242",
+  "updated_at": "2026-11-18T06:00:00.661281",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,64 +276,64 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-18T03:00:00.799242",
+    "updated_at": "2026-11-18T06:00:00.661281",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$93.33",
-        "chg": "+0.20%",
-        "trend": "up"
+        "val": "$92.65",
+        "chg": "-0.53%",
+        "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.20",
-        "chg": "-0.19%",
+        "val": "$3.18",
+        "chg": "-0.84%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$6.01/lb",
-        "chg": "+0.40%",
-        "trend": "up"
+        "val": "$5.91/lb",
+        "chg": "-1.22%",
+        "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.245 ₺",
-        "chg": "-0.25%",
+        "val": "6.157 ₺",
+        "chg": "-1.72%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$47.40",
-        "chg": "+0.09%",
-        "trend": "up"
+        "val": "$45.98",
+        "chg": "-2.91%",
+        "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
         "val": "50.43 ₺",
-        "chg": "+0.07%",
+        "chg": "+0.00%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.48 ₺",
-        "chg": "+0.11%",
-        "trend": "up"
+        "val": "55.44 ₺",
+        "chg": "-0.04%",
+        "trend": "down"
       },
       {
         "id": "motorin",
