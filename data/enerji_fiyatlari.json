@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T03:00:00.233209",
+  "updated_at": "2026-11-19T06:00:00.355459",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,64 +276,64 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-19T03:00:00.233209",
+    "updated_at": "2026-11-19T06:00:00.355459",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$88.78",
-        "chg": "-0.44%",
-        "trend": "down"
+        "val": "$89.24",
+        "chg": "+0.08%",
+        "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.39",
-        "chg": "+0.44%",
+        "val": "$3.38",
+        "chg": "+0.21%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$5.69/lb",
-        "chg": "+0.33%",
-        "trend": "up"
+        "val": "$5.65/lb",
+        "chg": "-0.36%",
+        "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.071 ₺",
-        "chg": "+0.07%",
-        "trend": "up"
+        "val": "6.046 ₺",
+        "chg": "-0.40%",
+        "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$45.41",
-        "chg": "+0.78%",
-        "trend": "up"
+        "val": "$44.98",
+        "chg": "-0.16%",
+        "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.45 ₺",
-        "chg": "+0.05%",
-        "trend": "up"
+        "val": "50.44 ₺",
+        "chg": "-0.02%",
+        "trend": "down"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.47 ₺",
-        "chg": "+0.01%",
-        "trend": "up"
+        "val": "55.37 ₺",
+        "chg": "-0.12%",
+        "trend": "down"
       },
       {
         "id": "motorin",
