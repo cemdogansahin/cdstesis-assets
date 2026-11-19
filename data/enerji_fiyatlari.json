@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:00:01.000680",
+  "updated_at": "2026-11-20T00:00:00.495174",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,47 +276,47 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-19T21:00:01.000680",
+    "updated_at": "2026-11-20T00:00:00.495174",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$90.02",
-        "chg": "+0.95%",
+        "val": "$90.05",
+        "chg": "+0.99%",
         "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.29",
-        "chg": "-2.55%",
+        "val": "$3.25",
+        "chg": "-3.65%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$5.64/lb",
-        "chg": "-0.51%",
+        "val": "$5.62/lb",
+        "chg": "-0.93%",
         "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "5.980 ₺",
-        "chg": "-1.48%",
+        "val": "5.949 ₺",
+        "chg": "-1.99%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$44.47",
-        "chg": "-1.32%",
+        "val": "$43.91",
+        "chg": "-2.54%",
         "trend": "down"
       },
       {
@@ -331,8 +331,8 @@
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.53 ₺",
-        "chg": "+0.17%",
+        "val": "55.51 ₺",
+        "chg": "+0.12%",
         "trend": "up"
       },
       {
@@ -355,7 +355,7 @@
         "id": "epias_ptf",
         "name": "EPİAŞ PTF",
         "icon": "⚡",
-        "val": "2.365 ₺/MWh",
+        "val": "2.370 ₺/MWh",
         "tag": "Spot",
         "trend": "neutral"
       },
