@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T09:00:00.089076",
+  "updated_at": "2026-11-19T12:00:00.243333",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-19T09:00:00.089076",
+    "updated_at": "2026-11-19T12:00:00.243333",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$89.31",
-        "chg": "+0.16%",
+        "val": "$89.72",
+        "chg": "+0.62%",
         "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.37",
-        "chg": "-0.06%",
+        "val": "$3.34",
+        "chg": "-0.86%",
         "trend": "down"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$5.68/lb",
-        "chg": "+0.13%",
-        "trend": "up"
+        "val": "$5.66/lb",
+        "chg": "-0.19%",
+        "trend": "down"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "6.060 ₺",
-        "chg": "-0.17%",
+        "val": "6.058 ₺",
+        "chg": "-0.20%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$45.29",
-        "chg": "+0.51%",
+        "val": "$45.06",
+        "chg": "+0.01%",
         "trend": "up"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.45 ₺",
-        "chg": "-0.01%",
-        "trend": "down"
+        "val": "50.46 ₺",
+        "chg": "+0.01%",
+        "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.45 ₺",
-        "chg": "+0.02%",
+        "val": "55.57 ₺",
+        "chg": "+0.25%",
         "trend": "up"
       },
       {
