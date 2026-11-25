@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T00:00:00.368841",
+  "updated_at": "2026-11-25T03:00:00.160193",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -188,8 +188,8 @@
     "gas_spot_sm3": 18.82,
     "gas_spot_kwh": 1.77,
     "geothermal_izmir": 1.33,
-    "fueloil_izmir_kg": 63.53,
-    "fueloil_izmir_kwh": 5.63,
+    "fueloil_izmir_kg": 59.45,
+    "fueloil_izmir_kwh": 5.27,
     "motorin_izmir_lt": 90.74,
     "gasoline_95_izmir_lt": 70.18
   },
@@ -276,63 +276,63 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-25T00:00:00.368841",
+    "updated_at": "2026-11-25T03:00:00.160193",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$88.18",
-        "chg": "+1.73%",
-        "trend": "up"
+        "val": "$88.41",
+        "chg": "-0.42%",
+        "trend": "down"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.69",
-        "chg": "+4.60%",
+        "val": "$3.68",
+        "chg": "+0.44%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$5.49/lb",
-        "chg": "-4.14%",
-        "trend": "down"
+        "val": "$5.47/lb",
+        "chg": "+0.40%",
+        "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "5.776 ₺",
-        "chg": "-2.72%",
+        "val": "5.778 ₺",
+        "chg": "-0.24%",
         "trend": "down"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$40.62",
-        "chg": "-5.91%",
+        "val": "$40.69",
+        "chg": "-0.24%",
         "trend": "down"
       },
       {
         "id": "usd_try",
         "name": "USD/TRY",
         "icon": "💵",
-        "val": "50.62 ₺",
-        "chg": "+0.09%",
+        "val": "50.64 ₺",
+        "chg": "+0.13%",
         "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.59 ₺",
-        "chg": "+0.73%",
+        "val": "55.54 ₺",
+        "chg": "+0.64%",
         "trend": "up"
       },
       {
