@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T06:00:00.665323",
+  "updated_at": "2026-11-26T09:00:00.407857",
   "period": "Son 12 Ay (Kasım 2025 - Ekim 2026)",
   "months": [
     "Kas 25",
@@ -276,47 +276,47 @@
     }
   ],
   "live_ticker_feed": {
-    "updated_at": "2026-11-26T06:00:00.665323",
+    "updated_at": "2026-11-26T09:00:00.407857",
     "source": "OPET Resmi İzmir API, Yahoo Finance Spot & EPİAŞ / İzmirgaz",
     "items": [
       {
         "id": "brent",
         "name": "BRENT PETROL",
         "icon": "🛢️",
-        "val": "$90.59",
-        "chg": "-0.06%",
-        "trend": "down"
+        "val": "$91.43",
+        "chg": "+0.87%",
+        "trend": "up"
       },
       {
         "id": "natgas",
         "name": "DOĞALGAZ (HH)",
         "icon": "🔥",
-        "val": "$3.68",
-        "chg": "+0.63%",
+        "val": "$3.66",
+        "chg": "+0.11%",
         "trend": "up"
       },
       {
         "id": "copper",
         "name": "BAKIR (COMEX)",
         "icon": "🥉",
-        "val": "$5.54/lb",
-        "chg": "+2.12%",
+        "val": "$5.47/lb",
+        "chg": "+0.95%",
         "trend": "up"
       },
       {
         "id": "gold_gram",
         "name": "GRAM ALTIN",
         "icon": "🥇",
-        "val": "5.901 ₺",
-        "chg": "+1.61%",
+        "val": "5.878 ₺",
+        "chg": "+1.21%",
         "trend": "up"
       },
       {
         "id": "silver",
         "name": "GÜMÜŞ (ONS)",
         "icon": "🥈",
-        "val": "$42.27",
-        "chg": "+4.28%",
+        "val": "$41.88",
+        "chg": "+3.32%",
         "trend": "up"
       },
       {
@@ -324,16 +324,16 @@
         "name": "USD/TRY",
         "icon": "💵",
         "val": "50.67 ₺",
-        "chg": "-0.00%",
-        "trend": "down"
+        "chg": "+0.00%",
+        "trend": "up"
       },
       {
         "id": "eur_try",
         "name": "EUR/TRY",
         "icon": "💶",
-        "val": "55.76 ₺",
-        "chg": "+0.02%",
-        "trend": "up"
+        "val": "55.69 ₺",
+        "chg": "-0.10%",
+        "trend": "down"
       },
       {
         "id": "motorin",
